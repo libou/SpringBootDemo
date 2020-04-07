@@ -1,0 +1,200 @@
+2020-04-06 18:30:33.032  INFO 27272 --- [main] com.libou.demo.DemoApplication           : Starting DemoApplication on LAPTOP-06CGQA2V with PID 27272 (D:\Projects\SpringBoot\demo\target\classes started by ASUS in D:\Projects\SpringBoot\demo)
+2020-04-06 18:30:33.036  INFO 27272 --- [main] com.libou.demo.DemoApplication           : No active profile set, falling back to default profiles: default
+2020-04-06 18:30:33.812  INFO 27272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-06 18:30:33.938  INFO 27272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 2 JPA repository interfaces.
+2020-04-06 18:30:37.078  INFO 27272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-06 18:30:37.091  INFO 27272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-06 18:30:37.091  INFO 27272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-06 18:30:37.369  INFO 27272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-06 18:30:37.369  INFO 27272 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4269 ms
+2020-04-06 18:30:37.521  INFO 27272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-06 18:30:37.787  INFO 27272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-06 18:30:37.846  INFO 27272 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:demo_db'
+2020-04-06 18:30:38.073  INFO 27272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-06 18:30:38.195  INFO 27272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-06 18:30:38.393  INFO 27272 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-06 18:30:38.561  INFO 27272 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-06 18:30:39.381  INFO 27272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-06 18:30:39.394  INFO 27272 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-06 18:30:40.252  WARN 27272 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-06 18:30:40.634  INFO 27272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-06 18:30:40.997  INFO 27272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-06 18:30:40.999  INFO 27272 --- [main] com.libou.demo.DemoApplication           : Started DemoApplication in 8.474 seconds (JVM running for 9.527)
+2020-04-06 18:38:08.018  INFO 27272 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 18:38:08.018  INFO 27272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-06 18:38:08.033  INFO 27272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-06 18:38:08.078  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : url=http://localhost:8080/accountInfo
+2020-04-06 18:38:08.078  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : method=GET
+2020-04-06 18:38:08.078  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:38:08.080  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.userList
+2020-04-06 18:38:08.080  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : args=[]
+2020-04-06 18:38:08.080  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : Function: userList, params: []
+2020-04-06 18:38:08.205  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : ##################### the return of the method is : [Account(id=1, name=libou, balance=0, create_date=2020-04-06 18:30:37.833, update_date=2020-04-06 18:30:37.833), Account(id=2, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844), Account(id=3, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844)]
+2020-04-06 18:42:27.004  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : url=http://localhost:8080/account
+2020-04-06 18:42:27.004  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 18:42:27.004  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:42:27.005  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.addAccount
+2020-04-06 18:42:27.005  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : args=[libou]
+2020-04-06 18:42:27.005  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : Function: addAccount, params: [libou]
+2020-04-06 18:42:27.093  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Success
+2020-04-06 18:42:53.110  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : url=http://localhost:8080/accountInfo
+2020-04-06 18:42:53.111  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : method=GET
+2020-04-06 18:42:53.111  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:42:53.111  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.userList
+2020-04-06 18:42:53.111  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : args=[]
+2020-04-06 18:42:53.111  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : Function: userList, params: []
+2020-04-06 18:42:53.113  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : ##################### the return of the method is : [Account(id=1, name=libou, balance=0, create_date=2020-04-06 18:30:37.833, update_date=2020-04-06 18:30:37.833), Account(id=2, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844), Account(id=3, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844), Account(id=4, name=libou, balance=0, create_date=2020-04-06 18:42:27.065, update_date=2020-04-06 18:42:27.065)]
+2020-04-06 18:47:29.233  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : url=http://localhost:8080/transaction
+2020-04-06 18:47:29.233  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 18:47:29.234  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:47:29.234  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 18:47:29.234  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=1, user=libou, action=deposit, date=null, amount=10020)]
+2020-04-06 18:47:29.234  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=1, user=libou, action=deposit, date=null, amount=10020)]
+2020-04-06 18:47:29.283  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Transaction successes
+2020-04-06 18:47:38.398  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : url=http://localhost:8080/transaction
+2020-04-06 18:47:38.398  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 18:47:38.398  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:47:38.398  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 18:47:38.398  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=1, user=libou, action=deposit, date=null, amount=500)]
+2020-04-06 18:47:38.399  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=1, user=libou, action=deposit, date=null, amount=500)]
+2020-04-06 18:47:38.405  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Transaction successes
+2020-04-06 18:47:42.912  INFO 27272 --- [http-nio-8080-exec-2] com.libou.demo.util.LogAspect            : url=http://localhost:8080/transaction
+2020-04-06 18:47:42.913  INFO 27272 --- [http-nio-8080-exec-2] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 18:47:42.913  INFO 27272 --- [http-nio-8080-exec-2] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:47:42.913  INFO 27272 --- [http-nio-8080-exec-2] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 18:47:42.913  INFO 27272 --- [http-nio-8080-exec-2] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=1, user=libou, action=deposit, date=null, amount=35)]
+2020-04-06 18:47:42.913  INFO 27272 --- [http-nio-8080-exec-2] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=1, user=libou, action=deposit, date=null, amount=35)]
+2020-04-06 18:47:42.921  INFO 27272 --- [http-nio-8080-exec-2] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Transaction successes
+2020-04-06 18:47:51.613  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : url=http://localhost:8080/accountInfo
+2020-04-06 18:47:51.614  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : method=GET
+2020-04-06 18:47:51.614  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:47:51.614  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.userList
+2020-04-06 18:47:51.614  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : args=[]
+2020-04-06 18:47:51.614  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : Function: userList, params: []
+2020-04-06 18:47:51.616  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : ##################### the return of the method is : [Account(id=1, name=libou, balance=10555, create_date=2020-04-06 18:30:37.833, update_date=2020-04-06 18:47:42.916), Account(id=2, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844), Account(id=3, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844), Account(id=4, name=libou, balance=0, create_date=2020-04-06 18:42:27.065, update_date=2020-04-06 18:42:27.065)]
+2020-04-06 18:49:43.827  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : url=http://localhost:8080/transaction
+2020-04-06 18:49:43.827  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 18:49:43.827  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:49:43.827  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 18:49:43.827  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=1, user=libou, action=withdraw, date=null, amount=10000)]
+2020-04-06 18:49:43.827  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=1, user=libou, action=withdraw, date=null, amount=10000)]
+2020-04-06 18:49:43.835  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Transaction successes
+2020-04-06 18:50:25.784  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : url=http://localhost:8080/accountInfo
+2020-04-06 18:50:25.784  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : method=GET
+2020-04-06 18:50:25.784  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:50:25.785  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.userList
+2020-04-06 18:50:25.785  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : args=[]
+2020-04-06 18:50:25.785  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : Function: userList, params: []
+2020-04-06 18:50:25.787  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : ##################### the return of the method is : [Account(id=1, name=libou, balance=555, create_date=2020-04-06 18:30:37.833, update_date=2020-04-06 18:49:43.831), Account(id=2, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844), Account(id=3, name=libou, balance=0, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:30:37.844), Account(id=4, name=libou, balance=0, create_date=2020-04-06 18:42:27.065, update_date=2020-04-06 18:42:27.065)]
+2020-04-06 18:52:25.190  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : url=http://localhost:8080/transaction
+2020-04-06 18:52:25.191  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 18:52:25.191  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:52:25.191  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 18:52:25.191  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=1, user=libou, action=withdraw, date=null, amount=10000)]
+2020-04-06 18:52:25.191  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=1, user=libou, action=withdraw, date=null, amount=10000)]
+2020-04-06 18:52:25.194  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Insufficient Balance!
+2020-04-06 18:53:37.697  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : url=http://localhost:8080/account/1
+2020-04-06 18:53:37.697  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : method=GET
+2020-04-06 18:53:37.697  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:53:37.697  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.getDetails
+2020-04-06 18:53:37.697  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : args=[1]
+2020-04-06 18:53:37.697  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : Function: getDetails, params: [1]
+2020-04-06 18:53:37.721  INFO 27272 --- [http-nio-8080-exec-1] com.libou.demo.util.LogAspect            : ##################### the return of the method is : [Transaction(id=1, account_id=1, user=libou, action=deposit, date=2020-04-06 18:47:29.281, amount=10020), Transaction(id=2, account_id=1, user=libou, action=deposit, date=2020-04-06 18:47:38.403, amount=500), Transaction(id=3, account_id=1, user=libou, action=deposit, date=2020-04-06 18:47:42.919, amount=35), Transaction(id=4, account_id=1, user=libou, action=withdraw, date=2020-04-06 18:49:43.834, amount=10000)]
+2020-04-06 18:54:46.026  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : url=http://localhost:8080/transaction
+2020-04-06 18:54:46.026  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 18:54:46.026  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:54:46.026  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 18:54:46.026  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=3, user=libou, action=deposit, date=null, amount=10000)]
+2020-04-06 18:54:46.026  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=3, user=libou, action=deposit, date=null, amount=10000)]
+2020-04-06 18:54:46.031  INFO 27272 --- [http-nio-8080-exec-5] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Transaction successes
+2020-04-06 18:55:27.982  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : url=http://localhost:8080/transactionList
+2020-04-06 18:55:27.982  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : method=GET
+2020-04-06 18:55:27.982  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:55:27.982  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.getAllTransactions
+2020-04-06 18:55:27.983  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : args=[]
+2020-04-06 18:55:27.983  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : Function: getAllTransactions, params: []
+2020-04-06 18:55:27.988  INFO 27272 --- [http-nio-8080-exec-6] com.libou.demo.util.LogAspect            : ##################### the return of the method is : [Transaction(id=1, account_id=1, user=libou, action=deposit, date=2020-04-06 18:47:29.281, amount=10020), Transaction(id=2, account_id=1, user=libou, action=deposit, date=2020-04-06 18:47:38.403, amount=500), Transaction(id=3, account_id=1, user=libou, action=deposit, date=2020-04-06 18:47:42.919, amount=35), Transaction(id=4, account_id=1, user=libou, action=withdraw, date=2020-04-06 18:49:43.834, amount=10000), Transaction(id=5, account_id=3, user=libou, action=deposit, date=2020-04-06 18:54:46.03, amount=10000)]
+2020-04-06 18:59:26.511  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : url=http://localhost:8080/account
+2020-04-06 18:59:26.511  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : method=DELETE
+2020-04-06 18:59:26.512  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:59:26.512  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.deleteAccount
+2020-04-06 18:59:26.512  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : args=[2]
+2020-04-06 18:59:26.512  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : Function: deleteAccount, params: [2]
+2020-04-06 18:59:26.531  INFO 27272 --- [http-nio-8080-exec-9] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Delete successfully
+2020-04-06 18:59:43.099  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : url=http://localhost:8080/account
+2020-04-06 18:59:43.099  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : method=DELETE
+2020-04-06 18:59:43.099  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 18:59:43.100  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.deleteAccount
+2020-04-06 18:59:43.100  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : args=[1]
+2020-04-06 18:59:43.100  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : Function: deleteAccount, params: [1]
+2020-04-06 18:59:43.102  INFO 27272 --- [http-nio-8080-exec-10] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Forbidden
+2020-04-06 19:02:31.734  INFO 27272 --- [http-nio-8080-exec-3] com.libou.demo.util.LogAspect            : url=http://localhost:8080/accountInfo
+2020-04-06 19:02:31.736  INFO 27272 --- [http-nio-8080-exec-3] com.libou.demo.util.LogAspect            : method=GET
+2020-04-06 19:02:31.736  INFO 27272 --- [http-nio-8080-exec-3] com.libou.demo.util.LogAspect            : ip=0:0:0:0:0:0:0:1
+2020-04-06 19:02:31.736  INFO 27272 --- [http-nio-8080-exec-3] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.userList
+2020-04-06 19:02:31.736  INFO 27272 --- [http-nio-8080-exec-3] com.libou.demo.util.LogAspect            : args=[]
+2020-04-06 19:02:31.736  INFO 27272 --- [http-nio-8080-exec-3] com.libou.demo.util.LogAspect            : Function: userList, params: []
+2020-04-06 19:02:31.741  INFO 27272 --- [http-nio-8080-exec-3] com.libou.demo.util.LogAspect            : ##################### the return of the method is : [Account(id=1, name=libou, balance=555, create_date=2020-04-06 18:30:37.833, update_date=2020-04-06 18:49:43.831), Account(id=3, name=libou, balance=10000, create_date=2020-04-06 18:30:37.844, update_date=2020-04-06 18:54:46.028), Account(id=4, name=libou, balance=0, create_date=2020-04-06 18:42:27.065, update_date=2020-04-06 18:42:27.065)]
+2020-04-06 19:02:45.538  INFO 2848 --- [main] c.l.d.controller.AccountControllerTest   : Starting AccountControllerTest on LAPTOP-06CGQA2V with PID 2848 (started by ASUS in D:\Projects\SpringBoot\demo)
+2020-04-06 19:02:45.541  INFO 2848 --- [main] c.l.d.controller.AccountControllerTest   : No active profile set, falling back to default profiles: default
+2020-04-06 19:02:46.490  INFO 2848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-06 19:02:46.611  INFO 2848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107ms. Found 2 JPA repository interfaces.
+2020-04-06 19:02:49.304  INFO 2848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-04-06 19:02:49.320  INFO 2848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-06 19:02:49.321  INFO 2848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-06 19:02:49.591  INFO 2848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-06 19:02:49.591  INFO 2848 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3999 ms
+2020-04-06 19:02:49.705  INFO 2848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-06 19:02:49.994  INFO 2848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-06 19:02:50.052  INFO 2848 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:demo_db'
+2020-04-06 19:02:50.429  INFO 2848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-06 19:02:50.545  INFO 2848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-06 19:02:50.740  INFO 2848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-06 19:02:50.894  INFO 2848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-06 19:02:51.847  INFO 2848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-06 19:02:51.860  INFO 2848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-06 19:02:52.873  WARN 2848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-06 19:02:53.251  INFO 2848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-06 19:02:55.723  INFO 2848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 14496 (http) with context path ''
+2020-04-06 19:02:55.725  INFO 2848 --- [main] c.l.d.controller.AccountControllerTest   : Started AccountControllerTest in 10.546 seconds (JVM running for 12.303)
+2020-04-06 19:02:56.101  INFO 2848 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 19:02:56.101  INFO 2848 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-06 19:02:56.137  INFO 2848 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2020-04-06 19:02:56.174  INFO 2848 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : url=http://localhost:14496/account
+2020-04-06 19:02:56.174  INFO 2848 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : method=DELETE
+2020-04-06 19:02:56.174  INFO 2848 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 19:02:56.175  INFO 2848 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.deleteAccount
+2020-04-06 19:02:56.175  INFO 2848 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : args=[2]
+2020-04-06 19:02:56.175  INFO 2848 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : Function: deleteAccount, params: [2]
+2020-04-06 19:02:56.222  INFO 2848 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Delete successfully
+2020-04-06 19:02:56.283  INFO 2848 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : url=http://localhost:14496/account
+2020-04-06 19:02:56.283  INFO 2848 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 19:02:56.283  INFO 2848 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 19:02:56.283  INFO 2848 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.addAccount
+2020-04-06 19:02:56.283  INFO 2848 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : args=[libou]
+2020-04-06 19:02:56.283  INFO 2848 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : Function: addAccount, params: [libou]
+2020-04-06 19:02:56.357  INFO 2848 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Success
+2020-04-06 19:02:56.370  INFO 2848 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.libou.demo.controller.TransactionControllerTest], using SpringBootContextLoader
+2020-04-06 19:02:56.371  INFO 2848 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.libou.demo.controller.TransactionControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-06 19:02:56.371  INFO 2848 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.libou.demo.controller.TransactionControllerTest]: TransactionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-06 19:02:56.374  INFO 2848 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.libou.demo.DemoApplication for test class com.libou.demo.controller.TransactionControllerTest
+2020-04-06 19:02:56.375  INFO 2848 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-06 19:02:56.376  INFO 2848 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@684a802a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7b5c9412, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@69d902f9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@547052, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ca3eba2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@23c00420, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@22f046b, org.springframework.test.context.event.EventPublishingTestExecutionListener@215a329c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@20723ee, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@21c5c68a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5bb39285, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2b0d85bd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@102ecb61]
+2020-04-06 19:02:56.466  INFO 2848 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : url=http://localhost:14496/transaction
+2020-04-06 19:02:56.467  INFO 2848 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 19:02:56.467  INFO 2848 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 19:02:56.467  INFO 2848 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 19:02:56.467  INFO 2848 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=0, user=libou, action=withdraw, date=null, amount=94)]
+2020-04-06 19:02:56.467  INFO 2848 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=0, user=libou, action=withdraw, date=null, amount=94)]
+2020-04-06 19:02:56.473  INFO 2848 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Account not existed
+2020-04-06 19:02:56.501  INFO 2848 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : url=http://localhost:14496/transaction
+2020-04-06 19:02:56.501  INFO 2848 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 19:02:56.501  INFO 2848 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 19:02:56.502  INFO 2848 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 19:02:56.502  INFO 2848 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=9, user=libou, action=withdraw, date=null, amount=60)]
+2020-04-06 19:02:56.502  INFO 2848 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=9, user=libou, action=withdraw, date=null, amount=60)]
+2020-04-06 19:02:56.503  INFO 2848 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Account not existed
+2020-04-06 19:02:56.514  INFO 2848 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-06 19:02:56.515  INFO 2848 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-06 19:02:56.517  INFO 2848 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-06 19:02:56.536  INFO 2848 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
