@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.test.annotation.Repeat;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -40,6 +41,7 @@ class TransactionControllerTest {
     }
 
     @Test
+    @Repeat(10)
     public void deposit(){
         int account_id = (int)(Math.random()*10);
         int amount = (int)(Math.random()*100);
@@ -64,6 +66,7 @@ class TransactionControllerTest {
     }
 
     @Test
+    @Repeat(5)
     public void withdraw(){
         int account_id = (int)(Math.random()*10);
         int amount = (int)(Math.random()*100);

@@ -198,3 +198,66 @@
 2020-04-06 19:02:56.515  INFO 2848 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-04-06 19:02:56.517  INFO 2848 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-04-06 19:02:56.536  INFO 2848 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-06 20:21:14.026  INFO 2176 --- [main] c.l.d.controller.AccountControllerTest   : Starting AccountControllerTest on LAPTOP-06CGQA2V with PID 2176 (started by ASUS in D:\Projects\SpringBoot\demo)
+2020-04-06 20:21:14.030  INFO 2176 --- [main] c.l.d.controller.AccountControllerTest   : No active profile set, falling back to default profiles: default
+2020-04-06 20:21:14.834  INFO 2176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-06 20:21:14.942  INFO 2176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 2 JPA repository interfaces.
+2020-04-06 20:21:17.792  INFO 2176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-04-06 20:21:17.805  INFO 2176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-06 20:21:17.806  INFO 2176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-06 20:21:18.082  INFO 2176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-06 20:21:18.083  INFO 2176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4018 ms
+2020-04-06 20:21:18.201  INFO 2176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-06 20:21:18.493  INFO 2176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-06 20:21:18.548  INFO 2176 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:demo_db'
+2020-04-06 20:21:18.908  INFO 2176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-06 20:21:19.031  INFO 2176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-06 20:21:19.230  INFO 2176 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-06 20:21:19.403  INFO 2176 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-06 20:21:20.323  INFO 2176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-06 20:21:20.335  INFO 2176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-06 20:21:21.444  WARN 2176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-06 20:21:21.858  INFO 2176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-06 20:21:24.345  INFO 2176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1903 (http) with context path ''
+2020-04-06 20:21:24.347  INFO 2176 --- [main] c.l.d.controller.AccountControllerTest   : Started AccountControllerTest in 10.775 seconds (JVM running for 12.579)
+2020-04-06 20:21:24.726  INFO 2176 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 20:21:24.726  INFO 2176 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-06 20:21:24.763  INFO 2176 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2020-04-06 20:21:24.804  INFO 2176 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : url=http://localhost:1903/account
+2020-04-06 20:21:24.805  INFO 2176 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : method=DELETE
+2020-04-06 20:21:24.805  INFO 2176 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 20:21:24.806  INFO 2176 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.deleteAccount
+2020-04-06 20:21:24.806  INFO 2176 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : args=[5]
+2020-04-06 20:21:24.806  INFO 2176 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : Function: deleteAccount, params: [5]
+2020-04-06 20:21:24.814  INFO 2176 --- [http-nio-auto-1-exec-1] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Account not found!
+2020-04-06 20:21:24.885  INFO 2176 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : url=http://localhost:1903/account
+2020-04-06 20:21:24.886  INFO 2176 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 20:21:24.886  INFO 2176 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 20:21:24.886  INFO 2176 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.AccountController.addAccount
+2020-04-06 20:21:24.886  INFO 2176 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : args=[libou]
+2020-04-06 20:21:24.886  INFO 2176 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : Function: addAccount, params: [libou]
+2020-04-06 20:21:24.993  INFO 2176 --- [http-nio-auto-1-exec-2] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Success
+2020-04-06 20:21:25.008  INFO 2176 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.libou.demo.controller.TransactionControllerTest], using SpringBootContextLoader
+2020-04-06 20:21:25.010  INFO 2176 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.libou.demo.controller.TransactionControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-06 20:21:25.010  INFO 2176 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.libou.demo.controller.TransactionControllerTest]: TransactionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-06 20:21:25.012  INFO 2176 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.libou.demo.DemoApplication for test class com.libou.demo.controller.TransactionControllerTest
+2020-04-06 20:21:25.013  INFO 2176 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-06 20:21:25.013  INFO 2176 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ca367aa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@30ed4034, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1700d089, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77e6053, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7097d921, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a21cbe7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3bb4c2b2, org.springframework.test.context.event.EventPublishingTestExecutionListener@4fbc516f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1acc768, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@25765a49, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@38caad07, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15d0b458, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@72a0a60d]
+2020-04-06 20:21:25.102  INFO 2176 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : url=http://localhost:1903/transaction
+2020-04-06 20:21:25.102  INFO 2176 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 20:21:25.102  INFO 2176 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 20:21:25.102  INFO 2176 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 20:21:25.102  INFO 2176 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=6, user=libou, action=withdraw, date=null, amount=22)]
+2020-04-06 20:21:25.103  INFO 2176 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=6, user=libou, action=withdraw, date=null, amount=22)]
+2020-04-06 20:21:25.108  INFO 2176 --- [http-nio-auto-1-exec-3] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Account not existed
+2020-04-06 20:21:25.143  INFO 2176 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : url=http://localhost:1903/transaction
+2020-04-06 20:21:25.143  INFO 2176 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : method=POST
+2020-04-06 20:21:25.144  INFO 2176 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : ip=127.0.0.1
+2020-04-06 20:21:25.144  INFO 2176 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : class_method=com.libou.demo.controller.TransactionController.makeTransaction
+2020-04-06 20:21:25.144  INFO 2176 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : args=[Transaction(id=null, account_id=7, user=libou, action=withdraw, date=null, amount=82)]
+2020-04-06 20:21:25.144  INFO 2176 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : Function: makeTransaction, params: [Transaction(id=null, account_id=7, user=libou, action=withdraw, date=null, amount=82)]
+2020-04-06 20:21:25.145  INFO 2176 --- [http-nio-auto-1-exec-4] com.libou.demo.util.LogAspect            : ##################### the return of the method is : Account not existed
+2020-04-06 20:21:25.163  INFO 2176 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-06 20:21:25.165  INFO 2176 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-06 20:21:25.167  INFO 2176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-06 20:21:25.171  INFO 2176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
